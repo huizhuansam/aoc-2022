@@ -2,9 +2,9 @@ import requests
 from dotenv import dotenv_values
 
 config = dotenv_values('.env')
-r = r = requests.get('https://adventofcode.com/2022/day/8/input', cookies=config)
+r = requests.get('https://adventofcode.com/2022/day/8/input', cookies=config)
 
-grid = [[int(chr(col)) for col in row] for row in r.read().strip().split(b'\n')]
+grid = [[int(chr(col)) for col in row] for row in r.content.strip().split(b'\n')]
 rows = len(grid)
 cols = len(grid[0])
 
