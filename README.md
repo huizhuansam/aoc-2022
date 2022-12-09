@@ -10,3 +10,7 @@ My AoC 2022 solutions, written in python3.
 Additional packages may be required: 
 1. [requests](https://github.com/psf/requests)
 2. [dotenv](https://github.com/theskumar/python-dotenv)
+
+## FAQ
+* "Wow your code looks like dog water."
+    * I did this just for fun with no regard for code quality. This is not representative of my usual work. Recruiters, please, go look at a different repo instead.
